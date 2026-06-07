@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mods Directory</title>
+
+<style>
+    /* Load your custom font */
+    @font-face {
+        font-family: "SimsReloaded";
+        src: url("fonts/SimsReloaded-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    body {
+        background: #fafafa;
+        color: #222;
+        font-family: "SimsReloaded", monospace;
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 26px;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+
+    .category {
+        margin-top: 32px;
+        margin-bottom: 10px;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #888;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 10px 0;
+    }
+
+    .thumb {
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+        border-radius: 4px;
+        opacity: 0.9;
+    }
+
+    a {
+        font-size: 17px;
+        color: #3a4cff;
+        text-decoration: none;
+        transition: color 0.15s ease;
+    }
+
+    a:hover {
+        color: #1f2aff;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <h1>Mods Directory</h1>
+
+    <div class="category">Gameplay Mods</div>
+
+    <div class="item">
+        <img class="thumb" src="images/mod1.jpg" alt="">
+        <a href="#">Mod Name One</a>
+    </div>
+
+    <div class="item">
+        <img class="thumb" src="images/mod2.jpg" alt="">
+        <a href="#">Mod Name Two</a>
+    </div>
+
+    <div class="category">Careers</div>
+
+    <div class="item">
+        <img class="thumb" src="images/career1.jpg" alt="">
+        <a href="#">Career Mod One</a>
+    </div>
+
+    <div class="item">
+        <img class="thumb" src="images/career2.jpg" alt="">
+        <a href="#">Career Mod Two</a>
+    </div>
+
+</div>
+</body>
+</html>
